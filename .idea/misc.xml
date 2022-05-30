@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/limaz/Desktop/Let's Go ThinkPad/Uni/Sem 6/SE328/PROJECT/Lubaba201415/app/src/main/res/layout/activity_firebase.xml" value="0.22604166666666667" />
+        <entry key="..\:/Users/limaz/Desktop/Let's Go ThinkPad/Uni/Sem 6/SE328/PROJECT/Lubaba201415/app/src/main/res/layout/activity_firebase_add.xml" value="0.22604166666666667" />
+        <entry key="..\:/Users/limaz/Desktop/Let's Go ThinkPad/Uni/Sem 6/SE328/PROJECT/Lubaba201415/app/src/main/res/layout/activity_firebase_edit.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/limaz/Desktop/Let's Go ThinkPad/Uni/Sem 6/SE328/PROJECT/Lubaba201415/app/src/main/res/layout/activity_firebase_fetch_1.xml" value="0.22604166666666667" />
+        <entry key="..\:/Users/limaz/Desktop/Let's Go ThinkPad/Uni/Sem 6/SE328/PROJECT/Lubaba201415/app/src/main/res/layout/activity_firebase_fetch_n.xml" value="0.22604166666666667" />
+        <entry key="..\:/Users/limaz/Desktop/Let's Go ThinkPad/Uni/Sem 6/SE328/PROJECT/Lubaba201415/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/limaz/Desktop/Let's Go ThinkPad/Uni/Sem 6/SE328/PROJECT/Lubaba201415/app/src/main/res/layout/activity_sqlite.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/limaz/Desktop/Let's Go ThinkPad/Uni/Sem 6/SE328/PROJECT/Lubaba201415/app/src/main/res/layout/activity_sqlite_edit.xml" value="0.22604166666666667" />
+        <entry key="..\:/Users/limaz/Desktop/Let's Go ThinkPad/Uni/Sem 6/SE328/PROJECT/Lubaba201415/app/src/main/res/layout/activity_sqlite_fetch1.xml" value="0.22604166666666667" />
+        <entry key="..\:/Users/limaz/Desktop/Let's Go ThinkPad/Uni/Sem 6/SE328/PROJECT/Lubaba201415/app/src/main/res/layout/activity_sqlite_fetch_1.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/limaz/Desktop/Let's Go ThinkPad/Uni/Sem 6/SE328/PROJECT/Lubaba201415/app/src/main/res/layout/activity_sqlite_fetch_n.xml" value="0.22604166666666667" />
+        <entry key="..\:/Users/limaz/Desktop/Let's Go ThinkPad/Uni/Sem 6/SE328/PROJECT/Lubaba201415/app/src/main/res/layout/activity_weather1.xml" value="0.22604166666666667" />
+        <entry key="..\:/Users/limaz/Desktop/Let's Go ThinkPad/Uni/Sem 6/SE328/PROJECT/Lubaba201415/app/src/main/res/layout/activity_weather2.xml" value="0.22604166666666667" />
+        <entry key="..\:/Users/limaz/Desktop/Let's Go ThinkPad/Uni/Sem 6/SE328/PROJECT/Lubaba201415/app/src/main/res/layout/custom_student_layout.xml" value="0.22604166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

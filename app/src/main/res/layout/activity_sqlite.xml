@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDFF4D07"
+    tools:context=".SQLite">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/sqlite" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <Button
+            android:id="@+id/fetch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="find Student using id" />
+
+        <Button
+            android:id="@+id/fetchn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="view All Students" />
+
+        <Button
+            android:id="@+id/ftos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="fireToSQL"
+            android:text="copy All Users from firebase" />
+    </LinearLayout>
+</RelativeLayout>

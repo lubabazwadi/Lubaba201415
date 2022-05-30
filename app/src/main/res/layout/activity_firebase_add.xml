@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    tools:context=".FirebaseAdd">
+
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Add Student | Firebase"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/addName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editUser"
+            android:layout_marginTop="30sp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/addSurname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name1"
+            android:layout_marginTop="30sp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Surname"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/addFather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/father1"
+            android:layout_marginTop="30sp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Father Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/addNationalID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nationalID1"
+            android:layout_marginTop="30sp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="National ID"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/addBirthDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/surname1"
+            android:layout_marginTop="30sp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="BirthDate"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/addGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/birthDate1"
+            android:layout_marginTop="30sp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Gender"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addStudentF"
+            android:text="Insert" />
+    </LinearLayout>
+</RelativeLayout>
